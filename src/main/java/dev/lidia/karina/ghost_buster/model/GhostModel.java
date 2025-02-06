@@ -36,6 +36,10 @@ public class GhostModel {
     public String getGhostClass(){
         return ghostClass;
     }
+
+    public String getDangerLevel(){
+        return dangerLevel;
+    }
     
    
     

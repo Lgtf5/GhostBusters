@@ -30,4 +30,9 @@ public class GhostModelTest {
         assertEquals("Friendly", ghost.getGhostClass());
     }
 
+    @Test
+    void testDangerLevel(){
+        assertEquals("High", ghost.getDangerLevel());
+    }
+
 }
