@@ -1,6 +1,5 @@
 package dev.lidia.karina.ghost_buster.model;
 
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.BeforeEach;
@@ -8,14 +7,16 @@ import org.junit.jupiter.api.Test;
 
 public class GhostModelTest {
 
-   private GhostModel ghost;
+    private GhostModel ghost;
 
-   // Método setUp con @BeforeEach para inicializar el objeto GhostModel antes de cada prueba para garantizar que cada test funcione con el mismo objeto inicial
+    // Método setUp con @BeforeEach para inicializar el objeto GhostModel antes de
+    // cada prueba para garantizar que cada test funcione con el mismo objeto
+    // inicial
 
-   @BeforeEach
-   void setUp(){
-    ghost = new GhostModel(1, "Casper", "Friendly", "High", "05-02-2025", "Change apparence", "Low");
-   }
+    @BeforeEach
+    void setUp() {
+        ghost = new GhostModel(1, "Casper", "Friendly", "High", "05-02-2025", "Change apparence", "Low");
+    }
 
     @Test
     void testGetId() {
@@ -23,32 +24,32 @@ public class GhostModelTest {
     }
 
     @Test
-    void testGetName(){
+    void testGetName() {
         assertEquals("Casper", ghost.getName());
     }
 
     @Test
-    void testGetGhostClass(){
+    void testGetGhostClass() {
         assertEquals("Friendly", ghost.getGhostClass());
     }
 
     @Test
-    void testDangerLevel(){
+    void testDangerLevel() {
         assertEquals("High", ghost.getDangerLevel());
     }
 
     @Test
-    void testCaptureDate(){
+    void testCaptureDate() {
         assertEquals("05-02-2025", ghost.getCaptureDate());
     }
 
     @Test
-    void testAbility(){
+    void testAbility() {
         assertEquals("Change apparence", ghost.getAbility());
     }
 
     @Test
-    void testAfinity(){
+    void testAfinity() {
         assertEquals("Low", ghost.getAfinity());
     }
 }
