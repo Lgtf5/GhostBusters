@@ -24,6 +24,7 @@ public class GhostModel {
         this.afinity = afinity;
     }
 
+// Accedemos a los atributos a través de getters
 
     public int getId(){
         return id;
@@ -52,9 +53,4 @@ public class GhostModel {
     public String getAfinity(){
         return afinity;
     }
-    
-   
-    
-
-
 }
