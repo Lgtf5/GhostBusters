@@ -20,6 +20,17 @@ public class PlayerModel {
         public String getPlayerName() {
             return playerName;
         }
+
+        // capturamos un solo fantasma y lo agregamos a la lista
+
+        public void capturedGhost(GhostModel ghost) {
+            capturedGhost.add(ghost);
+        }
+
+        public List<GhostModel> getCapturedGhost(){
+            return capturedGhost;
+        }
+
     }
 
 
