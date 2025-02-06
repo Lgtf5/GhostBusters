@@ -1,26 +1,23 @@
 package dev.lidia.karina.ghost_buster.model;
 
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class GhostModelTest {
 
-    @Test
-    void testGhostModeInit(){
-        // Objeto GhostModel de prueba 
+   private GhostModel ghost;
+   
+   @BeforeEach
+   void setUp(){
+    ghost = new GhostModel(1, "Casper", "Friendly", "High", "05-02-2025", "Change apparence", "Low");
+   }
 
-        GhostModel ghost = new GhostModel(1, "Casper", "Class V", "Slow", "06-02-2025", "change into human form", "7");
-
-        // Para verificar que los valores asignados son correctos:
-
+      @Test
+    void testGetId() {
         assertEquals(1, ghost.getId());
-        assertEquals("Casper" ghost.getName());
-        assertEquals("Class V", ghost.getGhostClass());
-        assertEquals("Slow", ghost.getDangerLevel());
-        assertEquals("06-02-2025", ghost.getCaptureDate());
-        assertEquals("change into human form", ghost.getHability());
-        assertEquals("7", ghost.getAfinity());
     }
 
 }

@@ -25,4 +25,11 @@ public class GhostModel {
     }
 
 
+    public int getId(){
+        return id;
+    }
+    
+   
+
+
 }
