@@ -45,6 +45,12 @@ public class GhostModelTest {
         assertEquals("Change apparence", ghost.getHability());
     }
 
+    @Test
+    void testAfinity(){
+        assertEquals("Low", ghost.getAfinity());
+    }
+
+
 
 
 }

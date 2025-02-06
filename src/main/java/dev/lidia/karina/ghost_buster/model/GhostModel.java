@@ -48,6 +48,10 @@ public class GhostModel {
     public String getHability(){
         return hability;
     }
+
+    public String getAfinity(){
+        return afinity;
+    }
     
    
     
