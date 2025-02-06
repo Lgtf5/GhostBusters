@@ -45,6 +45,9 @@ public class GhostModel {
         return captureDate;
     }
     
+    public String getHability(){
+        return hability;
+    }
     
    
     

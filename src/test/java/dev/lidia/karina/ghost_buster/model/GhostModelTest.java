@@ -40,5 +40,11 @@ public class GhostModelTest {
         assertEquals("05-02-2025", ghost.getCaptureDate());
     }
 
+    @Test
+    void testHability(){
+        assertEquals("Change apparence", ghost.getHability());
+    }
+
+
 
 }
