@@ -38,9 +38,6 @@ public class PlayerModel {
         public void releaseGhost(int id){
             capturedGhost.removeIf(ghost -> ghost.getId() == id);
         }
-
-
-
     }
 
 

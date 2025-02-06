@@ -9,18 +9,18 @@ public class GhostModel {
     private String ghostClass;
     private String dangerLevel;
     private String captureDate;
-    private String hability;
+    private String ability;
     private String afinity;
    
     // Constructor para inicializar el objeto
     
-    public GhostModel(int id, String name, String ghostClass,String dangerLevel, String captureDate, String hability, String afinity){
+    public GhostModel(int id, String name, String ghostClass,String dangerLevel, String captureDate, String ability, String afinity){
         this.id = id;
         this.name = name;
         this.ghostClass = ghostClass;
         this.dangerLevel = dangerLevel;
         this.captureDate = captureDate;
-        this.hability = hability;
+        this.ability = ability;
         this.afinity = afinity;
     }
 
@@ -46,8 +46,8 @@ public class GhostModel {
         return captureDate;
     }
     
-    public String getHability(){
-        return hability;
+    public String getAbility(){
+        return ability;
     }
 
     public String getAfinity(){
