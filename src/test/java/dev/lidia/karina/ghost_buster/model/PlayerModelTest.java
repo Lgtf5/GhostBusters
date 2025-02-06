@@ -1,6 +1,7 @@
 package dev.lidia.karina.ghost_buster.model;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.List;
@@ -26,11 +27,23 @@ public class PlayerModelTest {
 
     @Test
      void testCaptureGhost() {
-        // Verifica que un fantasma puede ser capturado y añadido a la lista de fantasmas capturados
         player.capturedGhost(ghost); // Captura el fantasma y lo añade a la lista de player
         List<GhostModel> capturedGhosts = player.getCapturedGhost(); // Obtiene la lista de fantasmas capturados
         assertEquals(1, capturedGhosts.size()); // Comprueba que la lista tiene un tamaño de 1
         assertTrue(capturedGhosts.contains(ghost)); // Comprueba que la lista contiene el objeto ghost
     }
+
+    @Test
+    void releaseGhost(){
+        player.capturedGhost(ghost);
+        player.releaseGhost(1); // libera el fantasma con ID:1
+        List<GhostModel> capturedGhosts = player.getCapturedGhost();
+        assertFalse(capturedGhosts.contains(ghost)); // comprueba si la lista no contiene el objeto ghost
+        assertEquals(0, capturedGhosts.size());
+    }
+
+
+
+    
 
 }

@@ -27,9 +27,19 @@ public class PlayerModel {
             capturedGhost.add(ghost);
         }
 
+        // Se obtiene una lista de fantasmas capturados con este método
+
         public List<GhostModel> getCapturedGhost(){
             return capturedGhost;
         }
+
+        // Para liberar un fantasma, se implementa este método
+
+        public void releaseGhost(int id){
+            capturedGhost.removeIf(ghost -> ghost.getId() == id);
+        }
+
+
 
     }
 
