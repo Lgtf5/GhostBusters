@@ -25,4 +25,9 @@ public class GhostModelTest {
         assertEquals("Casper", ghost.getName());
     }
 
+    @Test
+    void testGetGhostClass(){
+        assertEquals("Friendly", ghost.getGhostClass());
+    }
+
 }

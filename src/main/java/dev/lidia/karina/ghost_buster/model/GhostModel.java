@@ -32,7 +32,13 @@ public class GhostModel {
     public String getName(){
         return name;
     }
+
+    public String getGhostClass(){
+        return ghostClass;
+    }
+    
    
+    
 
 
 }
