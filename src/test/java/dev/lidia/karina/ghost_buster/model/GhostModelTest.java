@@ -35,4 +35,10 @@ public class GhostModelTest {
         assertEquals("High", ghost.getDangerLevel());
     }
 
+    @Test
+    void testCaptureDate(){
+        assertEquals("05-02-2025", ghost.getCaptureDate());
+    }
+
+
 }

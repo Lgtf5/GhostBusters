@@ -40,6 +40,11 @@ public class GhostModel {
     public String getDangerLevel(){
         return dangerLevel;
     }
+
+    public String getCaptureDate(){
+        return captureDate;
+    }
+    
     
    
     
