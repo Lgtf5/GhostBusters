@@ -16,7 +16,7 @@ public class GhostModelTest {
 
         assertEquals(1, ghost.getId());
         assertEquals("Casper" ghost.getName());
-        assertEquals("Class V", ghost.getClass());
+        assertEquals("Class V", ghost.getGhostClass());
         assertEquals("Slow", ghost.getDangerLevel());
         assertEquals("06-02-2025", ghost.getCaptureDate());
         assertEquals("change into human form", ghost.getHability());
