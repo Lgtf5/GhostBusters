@@ -43,8 +43,8 @@ public class GhostModelTest {
     }
 
     @Test
-    void testHability(){
-        assertEquals("Change apparence", ghost.getHability());
+    void testAbility(){
+        assertEquals("Change apparence", ghost.getAbility());
     }
 
     @Test
