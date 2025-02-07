@@ -15,11 +15,12 @@ public class GhostModelTest {
 
     @BeforeEach
     void setUp() {
-        ghost = new GhostModel(1, "Casper", "Friendly", "High", "05-02-2025", "Change apparence", "Low");
+        ghost = new GhostModel("Casper", "Friendly", "High", "05-02-2025", "Change apparence", "Low");
     }
 
     @Test
     void testGetId() {
+        // Verifica que el ID se inicializa correctamente
         assertEquals(1, ghost.getId());
     }
 

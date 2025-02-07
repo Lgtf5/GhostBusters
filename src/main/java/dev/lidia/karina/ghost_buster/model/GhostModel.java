@@ -2,7 +2,7 @@ package dev.lidia.karina.ghost_buster.model;
 
 // Esta clase represnta un fantasma con todos sus atributos
 public class GhostModel {
-
+    private static int counter = 1;
     private int id;
     private String name;
     private String ghostClass;
@@ -13,9 +13,9 @@ public class GhostModel {
 
     // Constructor para inicializar el objeto
 
-    public GhostModel(int id, String name, String ghostClass, String dangerLevel, String captureDate, String ability,
+    public GhostModel(String name, String ghostClass, String dangerLevel, String captureDate, String ability,
             String afinity) {
-        this.id = id;
+        this.id = counter++;
         this.name = name;
         this.ghostClass = ghostClass;
         this.dangerLevel = dangerLevel;
