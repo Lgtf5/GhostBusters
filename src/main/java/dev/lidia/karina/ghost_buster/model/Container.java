@@ -7,16 +7,27 @@ import java.util.List;
 
 
 
+import java.util.ArrayList;
+import java.util.List;
+import java.time.LocalDate;
+import java.util.stream.Collectors;
 
-class Container {
-    private  List<String> ghostList = new ArrayList<>();
+public class Container {
+    private List<SimulatedGhost> ghosts;
 
-    
-    
-    public void addGhost(String ghost){
+    public Container() {
+        this.ghosts = new ArrayList<>();
+    }
+
+    public List<SimulatedGhost> getGhosts() {
+        return new ArrayList<>(ghosts);
+    }
+
+    public void addGhost(SimulatedGhost ghost) {
         
     }
 
+    
 }
     
 

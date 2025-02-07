@@ -1,5 +1,6 @@
 package dev.lidia.karina.ghost_buster;
 
+import dev.lidia.karina.ghost_buster.model.Container;
 
 public final class App {
     private App() {
@@ -7,7 +8,11 @@ public final class App {
 
     
     
-    public static void main(String[] args) {
-       
+    public class Main {
+        public  void main(String[] args) {
+           
+        }
     }
+       
+    
 }
