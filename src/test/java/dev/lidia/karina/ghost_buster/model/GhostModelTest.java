@@ -15,6 +15,7 @@ public class GhostModelTest {
 
     @BeforeEach
     void setUp() {
+        GhostModel.resetCounter(); // hace un reset del contador antes de cada prueba
         ghost = new GhostModel("Casper", "Friendly", "High", "05-02-2025", "Change apparence", "Low");
     }
 

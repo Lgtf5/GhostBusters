@@ -24,6 +24,11 @@ public class GhostModel {
         this.afinity = afinity;
     }
 
+    // Método para resetear el contador
+public static void resetCounter(){
+    counter = 1;
+}
+
     // Accedemos a los atributos a través de getters
 
     public int getId() {
