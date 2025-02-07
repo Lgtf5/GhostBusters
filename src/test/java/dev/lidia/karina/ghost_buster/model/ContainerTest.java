@@ -1,7 +1,7 @@
 package dev.lidia.karina.ghost_buster.model; 
 
 import java.util.ArrayList;
-import java.util.Collections;
+
 import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
