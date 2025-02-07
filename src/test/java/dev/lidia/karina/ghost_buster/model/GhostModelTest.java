@@ -54,4 +54,10 @@ public class GhostModelTest {
     void testAfinity() {
         assertEquals("Low", ghost.getAfinity());
     }
+
+    @Test
+    void testToString(){
+        String expected = "1 Casper Friendly High 05-02-2025 Change apparence Low";
+        assertEquals(expected, ghost.toString());
+    }
 }
