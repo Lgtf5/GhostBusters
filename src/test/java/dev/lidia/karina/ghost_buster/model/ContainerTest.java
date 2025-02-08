@@ -42,4 +42,13 @@ public class ContainerTest {
         assertEquals(0, container.getGhosts().size());
     }
 
+    @Test
+    public void testFilterByType() {
+        container.addGhost(ghost1);
+        container.addGhost(ghost2);
+        List<SimulatedGhost> filtered = container.filterByType("TipoA");
+        assertEquals(1, filtered.size());
+        assertEquals("Fantasma1", filtered.get(0).getName());
+    }
 }
+

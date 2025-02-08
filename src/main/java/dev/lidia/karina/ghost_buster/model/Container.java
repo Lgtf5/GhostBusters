@@ -48,6 +48,9 @@ public class Container {
     public void removeGhost(int id) {
         ghosts.removeIf(ghost -> ghost.getId() == id);
     }
+    public void filterByType(String type) {
+        
+    }   
 }
    
 
