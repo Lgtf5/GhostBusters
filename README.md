@@ -4,9 +4,11 @@
 ## Status: in progresss ⏳
 
 ## Requeriments 
-- Develop a programa with Java that offer us:
+- Develop a programa with Java that allow us:
 
-    - 
+    - Capture a new ghost
+    - View list of capture ghost
+    - Release a ghost
 
 ## Our Team
 - [Karina Lorenzo](https://github.com/karinalorenzo)
