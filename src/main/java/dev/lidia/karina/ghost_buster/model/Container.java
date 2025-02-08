@@ -46,7 +46,9 @@ public class Container {
     return new ArrayList<>(ghosts);
     }
     public void removeGhost(int id) {
+        ghosts.removeIf(ghost -> ghost.getId() == id);
     }
+}
    
 
 

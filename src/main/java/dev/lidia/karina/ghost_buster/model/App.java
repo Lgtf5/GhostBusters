@@ -7,8 +7,8 @@ public final class App {
     
     
     public class Main {
-        public static void main(String[] args) {
-            GhostContainer container = new GhostContainer();
+        public  void main(String[] args) {
+            Container container = new Container();
             
             // Añadir fantasmas
             container.addGhost(new SimulatedGhost(1, "Fantasma1", "TipoA", "Nivel1", "2025-01-01", "Habilidad1", "Afinidad1"));
