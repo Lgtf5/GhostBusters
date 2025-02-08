@@ -48,8 +48,12 @@ public class Container {
     public void removeGhost(int id) {
         ghosts.removeIf(ghost -> ghost.getId() == id);
     }
-    public void filterByType(String type) {
-        
+    public List<SimulatedGhost> filterByType(String type) {
+        List<SimulatedGhost> filtered = ghosts.stream()
+        .filter(ghost -> ghost.getType().equals(type))
+        .collect(Collectors.toList());
+        filtered.forEach(System.out::println);
+    return filtered;
     }   
 }
    
