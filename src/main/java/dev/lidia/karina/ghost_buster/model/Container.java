@@ -16,7 +16,7 @@ public class Container {
     private List<SimulatedGhost> ghosts;
 
     public Container() {
-        this.ghosts = new ArrayList<>();
+        ghosts = new ArrayList<>();;
     }
 
     public List<SimulatedGhost> getGhosts() {
@@ -24,10 +24,10 @@ public class Container {
     }
 
     public void addGhost(SimulatedGhost ghost) {
-        
+        ghosts.add(ghost);
     }
-
-    
+   
+    public void ghostList() {}
 }
     
 

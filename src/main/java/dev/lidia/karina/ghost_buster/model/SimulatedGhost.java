@@ -20,24 +20,27 @@ public class SimulatedGhost {
     }
 
     // Getters y setters
-    public void getId() { System.out.println(id); }
+    public int getId() { System.out.println(id);return id; }
     
-    public void getName() { System.out.println(name); }
+    public String getName() { 
+        System.out.println(name); 
+        return name; 
+    }
     public void setName(String name) { this.name = name; }
 
-    public void getType() { System.out.println(type); }
+    public String getType() { System.out.println(type); return type;}
     public void setType(String type) { this.type = type; }
 
-    public void getLevel() { System.out.println(level); }
+    public String getLevel() { System.out.println(level); return level;}
     public void setLevel (String level) { this.level = level; }
 
-    public void getDate() { System.out.println(date); }
+    public String getDate() { System.out.println(date); return date;}
     public void setDate(String date) { this.date = date; }
 
-    public void getAbility() { System.out.println(ability); }
+    public String getAbility() { System.out.println(ability); return ability; }
     public void setAbililty(String ability) { this.ability = ability; }
 
-    public void getAfinity() { System.out.println(afinity); }
+    public String getAfinity() { System.out.println(afinity); return afinity;}
     
 
 }
