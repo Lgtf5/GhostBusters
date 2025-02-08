@@ -54,6 +54,13 @@ public class Container {
         .collect(Collectors.toList());
         filtered.forEach(System.out::println);
     return filtered;
+    } 
+    public void filterByMonth(String date){
+        public List<SimulatedGhost> filterByMonth(String month) {
+            return ghosts.stream()
+                .filter(ghost -> ghost.getDate().substring(5, 7).equals(month))
+                .collect(Collectors.toList());
+        }
     }   
 }
    
