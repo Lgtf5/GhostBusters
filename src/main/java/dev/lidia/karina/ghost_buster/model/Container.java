@@ -13,9 +13,11 @@ public class Container {
     
     public List<Ghost> getGhosts() {
         return new ArrayList<>(ghosts);
-    }
+    } 
     public void addGhost(Ghost ghost) {
         ghosts.add(ghost);
     } 
-   
+    public void ghostList() {
+        
+    }   
 }
