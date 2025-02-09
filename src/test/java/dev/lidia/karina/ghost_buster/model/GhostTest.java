@@ -33,4 +33,9 @@ public class GhostTest {
         assertEquals("Casper", ghosts.get(0).getName());
     }
 
+    @Test
+    @DisplayName("Test name of class ghost")
+    void testGetType() {
+        assertEquals("Friendy", ghosts.get(0).getType());
+    }
 }

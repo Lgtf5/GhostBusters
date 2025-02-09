@@ -26,4 +26,10 @@ public class Ghost {
     public String getName() {
         return name;
     }
+
+    public String getType() {
+       
+    }
+
+
 }
