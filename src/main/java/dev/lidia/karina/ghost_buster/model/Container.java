@@ -23,7 +23,6 @@ public class Container {
     public void addGhost(SimulatedGhost ghost) {
         ghosts.add(ghost);
     }
-   
     public void ghostList() {
         if (ghosts.isEmpty()) {
             System.out.println("No hay fantasmas capturados.");
@@ -63,7 +62,7 @@ public class Container {
         }
 }   
 
-   
+
 
 
 
