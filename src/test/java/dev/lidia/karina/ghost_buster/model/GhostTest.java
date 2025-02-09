@@ -61,7 +61,7 @@ public class GhostTest {
     @Test
     @DisplayName("Test ability of class ghost")
     void testGetAfinity() {
-        assertEquals("7/10", ghosts.get(0).getAbility());
+        assertEquals("7/10", ghosts.get(0).getAfinity());
 
         
     }
