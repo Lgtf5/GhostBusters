@@ -35,5 +35,11 @@ public class Ghost {
         return level;
      }
 
+     public String getDate() {
+        
+     }
+
+
+
 
 }

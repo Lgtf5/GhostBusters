@@ -44,4 +44,13 @@ public class GhostTest {
     void testGetLevel() {
         assertEquals("Low", ghosts.get(0).getLevel());
     }
+
+    @Test
+    @DisplayName("Test date of class ghost")
+    void testGetDate() {
+    assertEquals("2023-10-01", ghosts.get(0).getDate());
+  
+    }
+
+
 }
