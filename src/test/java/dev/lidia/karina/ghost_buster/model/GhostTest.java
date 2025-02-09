@@ -27,4 +27,9 @@ public class GhostTest {
         assertEquals(ghost1.getId(), ghosts.get(0).getId());
     }
 
+    @Test
+    void testGetName() {
+        assertEquals("Casper", ghost.getName());
+    }
+
 }

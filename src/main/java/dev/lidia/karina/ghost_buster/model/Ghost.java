@@ -22,4 +22,7 @@ public class Ghost {
     public int getId() {
         return id;
     }
+    public void getName(){
+
+    }
 }
