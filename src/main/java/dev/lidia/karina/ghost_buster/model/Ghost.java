@@ -28,7 +28,7 @@ public class Ghost {
     }
 
     public String getType() {
-       
+       return type;
     }
 
 
