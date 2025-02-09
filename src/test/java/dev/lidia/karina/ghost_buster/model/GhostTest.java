@@ -17,7 +17,7 @@ public class GhostTest {
     @BeforeEach
     void setUp() {
         ghosts = new ArrayList<>();
-        ghost1 = new Ghost(1, "Casper", "Friendly", "Low", "2023-10-01", "Invisibility", "Good");
+        ghost1 = new Ghost(1, "Casper", "Friendly", "Low", "2023-10-01", "Invisibility", "7/10");
         ghosts.add(ghost1);
     }
 
@@ -56,6 +56,14 @@ public class GhostTest {
     @DisplayName("Test ability of class ghost")
     void testGetAbility() {
         assertEquals("Invisibility", ghosts.get(0).getAbility());
+    }
+
+    @Test
+    @DisplayName("Test ability of class ghost")
+    void testGetAfinity() {
+        assertEquals("7/10", ghosts.get(0).getAbility());
+
+        
     }
 
 }

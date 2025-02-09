@@ -43,4 +43,8 @@ public class Ghost {
         return ability;
     }
 
+    public String getAfinity() {
+        
+    }
+
 }
