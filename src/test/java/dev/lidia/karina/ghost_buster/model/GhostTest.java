@@ -48,9 +48,14 @@ public class GhostTest {
     @Test
     @DisplayName("Test date of class ghost")
     void testGetDate() {
-    assertEquals("2023-10-01", ghosts.get(0).getDate());
-  
+        assertEquals("2023-10-01", ghosts.get(0).getDate());
+
     }
 
+    @Test
+    @DisplayName("Test ability of class ghost")
+    void testGetAbility() {
+        assertEquals("Invisibility", ghosts.get(0).getAbility());
+    }
 
 }

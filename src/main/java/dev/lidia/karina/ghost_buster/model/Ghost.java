@@ -28,18 +28,19 @@ public class Ghost {
     }
 
     public String getType() {
-       return type;
+        return type;
     }
 
     public String getLevel() {
         return level;
-     }
+    }
 
-     public String getDate() {
+    public String getDate() {
         return date;
-     }
+    }
 
+    public String getAbility() {
 
-
+    }
 
 }
