@@ -6,9 +6,16 @@ import java.util.stream.Collectors;
 
 public class Container {
     private List<Ghost> ghosts;
-    ghosts = new ArrayList<>();
     
+    public Container() {
+        this.ghosts = new ArrayList<>();
+    }
+    
+    public List<Ghost> getGhosts() {
+        return new ArrayList<>(ghosts);
+    }
     public void addGhost(Ghost ghost) {
-
+        ghosts.add(ghost);
     } 
+   
 }
