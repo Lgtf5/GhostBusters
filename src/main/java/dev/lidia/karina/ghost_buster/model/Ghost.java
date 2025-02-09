@@ -32,6 +32,7 @@ public class Ghost {
     }
 
     public String getLevel() {
+        return level;
      }
 
 
