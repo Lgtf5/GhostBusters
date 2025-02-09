@@ -34,8 +34,14 @@ public class GhostTest {
     }
 
     @Test
-    @DisplayName("Test name of class ghost")
+    @DisplayName("Test type of class ghost")
     void testGetType() {
         assertEquals("Friendly", ghosts.get(0).getType());
+    }
+
+    @Test
+    @DisplayName("Test level of class ghost")
+    void testGetLevel() {
+        assertEquals("Low", ghosts.get(0).getLevel());
     }
 }
