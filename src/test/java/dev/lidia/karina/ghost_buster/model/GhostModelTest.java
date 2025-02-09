@@ -60,4 +60,20 @@ public class GhostModelTest {
         String expected = "1 Casper Friendly High 05-02-2025 Change apparence Low";
         assertEquals(expected, ghost.toString());
     }
+
+    // Se añaden más test para dar una mayor cobertura a la clase GhostModel
+
+    // Este test verifica que se incrementa correctamente el ID al crear múltiples instancias. Se crea una segunda instancia de GhostModel para ponerlo en práctica.
+
+    @Test 
+    void testMultipleInstances(){
+        GhostModel ghost2 = new GhostModel("Boo", "Scary", "Low", "07-02-2025", "invisibility", "Medium");
+        assertEquals(2, ghost2.getId());
+        assertEquals("Boo", ghost2.getName());
+        assertEquals("Scary", ghost2.getGhostClass());
+        assertEquals("Low", ghost2.getDangerLevel());
+        assertEquals("07-02-2025", ghost2.getCaptureDate());
+        assertEquals("invisibility", ghost2.getAbility());
+        assertEquals("Medium", ghost2.getAfinity());
+    }
 }
