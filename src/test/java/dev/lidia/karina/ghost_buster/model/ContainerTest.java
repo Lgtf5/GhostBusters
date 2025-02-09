@@ -30,10 +30,11 @@ public class ContainerTest {
 
 	@Test
     @DisplayName ("display list of ghosts captured")
-	void testGhostList() {
+	public void testGhostList() {
         Container container = new Container();
-        container.addGhost(new Ghost());
+        container.addGhost(new Ghost(2, "Fantasma1", "TipoA", "Nivel1", "2025-01-01", "Habilidad1", "Afinidad1"));
+        container.addGhost(new Ghost(3, "Fantasma2", "TipoB", "Nivel2", "2025-01-02", "Habilidad2", "Afinidad2"));
+        container.ghostList(); 
         
-       
 	}
 }
