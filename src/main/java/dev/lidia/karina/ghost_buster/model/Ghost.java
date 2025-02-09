@@ -44,7 +44,6 @@ public class Ghost {
     }
 
     public String getAfinity() {
-        return afinity;
     }
 
 }
