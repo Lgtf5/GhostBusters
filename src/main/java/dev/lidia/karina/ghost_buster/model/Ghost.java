@@ -40,7 +40,7 @@ public class Ghost {
     }
 
     public String getAbility() {
-
+        return ability;
     }
 
 }
