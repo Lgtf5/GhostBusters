@@ -9,4 +9,17 @@ public class Ghost {
     private String ability;
     private String afinity;
 
+    public Ghost(int id, String name, String type, String level, String date, String ability, String afinity) {
+        this.id = id;
+        this.name = name;
+        this.type = type;
+        this.level = level;
+        this.date = date;
+        this.ability = ability;
+        this.afinity = afinity;
+    }
+
+    public int getId() {
+        return id;
+    }
 }
