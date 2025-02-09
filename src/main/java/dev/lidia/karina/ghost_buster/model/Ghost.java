@@ -36,7 +36,7 @@ public class Ghost {
      }
 
      public String getDate() {
-        
+        return date;
      }
 
 
