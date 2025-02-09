@@ -28,8 +28,9 @@ public class GhostTest {
     }
 
     @Test
+    @DisplayName("Test name of class ghost")
     void testGetName() {
-        assertEquals("Casper", ghost.getName());
+        assertEquals("Casper", ghosts.get(0).getName());
     }
 
 }

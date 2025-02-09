@@ -22,7 +22,8 @@ public class Ghost {
     public int getId() {
         return id;
     }
-    public void getName(){
 
+    public String getName() {
+        return name;
     }
 }
