@@ -30,8 +30,9 @@
  
  ### Documentation:
 
-![Canva](https://img.shields.io/badge/-Canva-00C4CC?logo=canva&logoColor=white&style=flat)
+[![Canva](https://img.shields.io/badge/-Canva-00C4CC?logo=canva&logoColor=white&style=flat)](https://www.canva.com/design/DAGeptUBvAM/uf3YkajTAK5PPGFl4GRDTg/edit)
 ![Jira](https://img.shields.io/badge/-Jira-0052CC?logo=jira&logoColor=white&style=flat)
+
 
  ### Comunication
 ![Slack](https://img.shields.io/badge/-Slack-4A154B?logo=slack&logoColor=white&style=flat)
