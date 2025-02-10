@@ -55,4 +55,20 @@ public class ContainerTest {
         assertEquals(1, filtered.size());
         assertEquals("Fantasma1", filtered.get(0).getName());
     }
+
+    @Test
+    @DisplayName ("display list by ghost month captured")
+    void testFilterByMonth() {
+        Container container = new Container();
+        container.addGhost(new Ghost(1, "Fantasma1", "TipoA", "Nivel1", "2025-01-01", "Habilidad1", "Afinidad1"));
+        container.addGhost(new Ghost(2, "Fantasma2", "TipoB", "Nivel2", "2025-01-15", "Habilidad2", "Afinidad2"));
+        container.addGhost(new Ghost(3, "Fantasma3", "TipoC", "Nivel3", "2025-02-01", "Habilidad3", "Afinidad3"));
+        
+
+        List<Ghost> enero = container.filterByMonth("01");
+        assertEquals(2, enero.size());
+        assertTrue(enero.stream().allMatch(ghost -> ghost.getDate().startsWith("2025-01")));
+        assertFalse(enero.contains(container.getGhosts().get(2)));
+        }
     }
+    

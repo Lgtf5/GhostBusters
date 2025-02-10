@@ -48,4 +48,7 @@ public class Container {
         filtered.forEach(System.out::println);
         return filtered;
     }
+    public List<Ghost> filterByMonth(String month) {
+        
+    }
 }
