@@ -1,7 +1,7 @@
 
 # GhostBuster Project
 
-## Status: in progresss ⏳
+## Status: DONE 🚀
 
 ## Requeriments 
 - Develop a programa with Java that allow us:
