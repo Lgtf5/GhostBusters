@@ -40,4 +40,7 @@ public class Container {
     public void removeGhost(int id) {
         ghosts.removeIf(ghost -> ghost.getId() == id);
     }
+    public List<Ghost> filterByType(String type){
+        
+    }
 }

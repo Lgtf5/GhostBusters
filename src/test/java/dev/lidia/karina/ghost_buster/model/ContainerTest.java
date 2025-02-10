@@ -45,4 +45,14 @@ public class ContainerTest {
         container.removeGhost(2);
         assertEquals(0, container.getGhosts().size());
     }
+
+    @Test
+    @DisplayName ("display list by ghost type")
+    void testFilterByType() {
+        container.addGhost(ghost2);
+        container.addGhost(ghost3);
+        List<Ghost> filtered = container.filterByType("TipoA");
+        assertEquals(1, filtered.size());
+        assertEquals("Fantasma1", filtered.get(0).getName());
+    }
     }
