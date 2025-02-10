@@ -41,8 +41,8 @@ public class ContainerTest {
     @Test
     @DisplayName ("release ghost from ghost captured list")
     void testRemoveGhost() {
-        container.addGhost();
-        container.removeGhost();
-        assertEquals(1, container.getGhosts().size());
+        container.addGhost(ghost2);
+        container.removeGhost(2);
+        assertEquals(0, container.getGhosts().size());
     }
     }
