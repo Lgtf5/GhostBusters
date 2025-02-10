@@ -39,6 +39,8 @@
 ### Browsers
 ![Brave](https://img.shields.io/badge/-Brave-FB542B?logo=brave&logoColor=white&style=flat)
 ![Google](https://img.shields.io/badge/-Google-4285F4?logo=google&logoColor=white&style=flat)
+![Mozilla](https://img.shields.io/badge/-Mozilla-FF7139?style=flat&logo=mozilla&logoColor=white)
+
 
 ### AI
 ![ChatGPT](https://img.shields.io/badge/-ChatGPT-10A37F?logo=openai&logoColor=white&style=flat)
