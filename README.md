@@ -31,8 +31,7 @@
  ### Documentation:
 
 [![Canva](https://img.shields.io/badge/-Canva-00C4CC?logo=canva&logoColor=white&style=flat)](https://www.canva.com/design/DAGeptUBvAM/uf3YkajTAK5PPGFl4GRDTg/edit)
-![Jira](https://img.shields.io/badge/-Jira-0052CC?logo=jira&logoColor=white&style=flat)
-
+[![Jira](https://img.shields.io/badge/-Jira-0052CC?logo=jira&logoColor=white&style=flat)](https://gaviriayeferson2.atlassian.net/jira/software/projects/KAN/boards/1)
 
  ### Comunication
 ![Slack](https://img.shields.io/badge/-Slack-4A154B?logo=slack&logoColor=white&style=flat)
@@ -41,7 +40,6 @@
 ![Brave](https://img.shields.io/badge/-Brave-FB542B?logo=brave&logoColor=white&style=flat)
 ![Google](https://img.shields.io/badge/-Google-4285F4?logo=google&logoColor=white&style=flat)
 ![Mozilla](https://img.shields.io/badge/-Mozilla-FF7139?style=flat&logo=mozilla&logoColor=white)
-
 
 ### AI
 ![ChatGPT](https://img.shields.io/badge/-ChatGPT-10A37F?logo=openai&logoColor=white&style=flat)
