@@ -6,23 +6,21 @@ import java.util.stream.Collectors;
 
 public class Container {
     private List<Ghost> ghosts;
-    
+
     public Container() {
         this.ghosts = new ArrayList<>();
     }
-    
-    public List<Ghost> getGhosts() {
-        return new ArrayList<>(ghosts);
-    } 
+
     public void addGhost(Ghost ghost) {
         ghosts.add(ghost);
-    } 
+    }
+
     public void ghostList() {
         if (ghosts.isEmpty()) {
             System.out.println("No hay fantasmas capturados.");
             return;
-        }        
-System.out.println("\n=== Lista de Fantasmas Capturados ===");
+        }
+        System.out.println("\n=== Lista de Fantasmas Capturados ===");
         ghosts.forEach(ghost -> {
             System.out.println("ID: " + ghost.getId());
             System.out.println("Nombre: " + ghost.getName());
@@ -33,6 +31,13 @@ System.out.println("\n=== Lista de Fantasmas Capturados ===");
             System.out.println("Afinidad: " + ghost.getAfinity());
             System.out.println("----------------------------------------");
         });
+    }
 
-    }   
+    public List<Ghost> getGhosts() {
+        return new ArrayList<>(ghosts);
+    }
+
+    public void removeGhost(int id) {
+
+    }
 }
