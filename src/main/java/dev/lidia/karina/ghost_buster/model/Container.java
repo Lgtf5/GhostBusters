@@ -49,6 +49,9 @@ public class Container {
         return filtered;
     }
     public List<Ghost> filterByMonth(String month) {
-        
+        return ghosts.stream()
+                .filter(ghost -> ghost.getDate().substring(5, 7).equals(month))
+                .collect(Collectors.toList());
     }
 }
+
